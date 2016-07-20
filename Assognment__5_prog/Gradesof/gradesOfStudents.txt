@@ -1,0 +1,4 @@
+﻿Jones, Bob: 1 Introduction to Computer Science, A-
+Johnson, Sarah: 2 Data Structures, B+ 
+Smith, Sam: 3 Data Structures, C
+Monty, Python: 4 Modern Art, D
