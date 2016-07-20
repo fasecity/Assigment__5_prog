@@ -1,9 +1,19 @@
 ﻿using System;
 using System.IO;
 namespace Assognment__5_prog
-{
+{   //Name:Mohamoud Mohamed
+    //Student#:300435435
+    //Assignment: 5
+    //Version: 0.2 with notes
+    
+    /// <summary>
+    /// This is the class program
+    /// </summary>
     class Program
-    {
+    {   /// <summary>
+    /// this is the main method 
+    /// </summary>
+    /// <param name="args"></param>
         static void Main(string[] args)
         {
             //defile variable
@@ -21,10 +31,12 @@ namespace Assognment__5_prog
             //close the textfile so other apps can use it
             SR.Close();
 
-
-          
+        
+            
+        
+            // user Input 
             Console.WriteLine("Please press 1 to display and 2 to exit");
-
+            
             string input = Console.ReadLine();
 
             try
@@ -60,8 +72,9 @@ namespace Assognment__5_prog
                         }
 
                 }
-
+        
             }
+            //catch error
             catch (ArgumentOutOfRangeException e)
             {
                 Console.WriteLine($"1error {e.Message}");
